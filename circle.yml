@@ -1,0 +1,11 @@
+machine:
+  python:
+    version: 2.7.8
+
+dependencies:
+  override:
+    - pip install stuff
+
+test:
+  override:
+    - python -m tests
